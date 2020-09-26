@@ -1,0 +1,312 @@
+/* I order the almost all the selections by alphabetical order because this is the most standardized way. Everyone will be familiar with this order. This eliminates confusion*/
+/* It is also much easier for me to find a selection because I will know roughly the position (start, middle, or bottom of the page) without even looking at the details of the css file. I will be able to quickly find the specific selection by scrolling to the sectoon with the correct starting letter. */
+/*.menu-holder is not sorted in alphbetical order because the rules would be override if it is put on top*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Berkshire+Swash&display=swap');
+body {
+    font-family:  'Caveat', sans-serif;
+    font-size: 120%;
+    color: #666;
+    background-color: #2ca7d4;}
+.center-mid-2  th, td {
+    text-align: left;
+    background-color: #f2e0dc;
+    border-top: 1px solid #f2e0dc;
+    border-bottom: 1px solid #f5e9e6;
+    border-right: 1px solid #f5e9e6;
+}
+.center-mid-2 tr.head th {
+    color: #fff;
+    background-color: #ffbdb3;
+    border-bottom: 2px solid #ffab9e;
+    border-right: 1px solid #ffa494;
+    border-top: 1px solid #ffd1c9;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+.center-mid-2 fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+.center-mid-3  th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+.center-mid-3  tr.head th{
+    color: #fff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+    padding-top: 5px
+}
+.center-mid-3 fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffd1c9;
+    line-height: 1.6em;
+}
+.center-mid-1{
+    width: 940px;
+    background-color: #BEB594;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-2{
+    width: 940px;
+    background-color: #efeae6;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-3{
+    width: 940px;
+    background-color: #dee1e5;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+.center-text {
+    text-align: center;
+}
+.center-2>h1, .center-2>p{
+    text-align: center;
+}
+.center-mid-1{
+    width: 940px;
+    background-color: #BEB594;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+.center-mid-1 .center-text{
+    font-style: normal;
+    font-weight: normal;
+}
+.center-mid-2{
+    width: 940px;
+    background-color: #efeae6;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-3{
+    width: 940px;
+    background-color: #dee1e5;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    }
+
+.center-2{
+    width: 940px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-3{
+    padding-top: 40px;
+    width: 300px;
+    margin: 0 0;
+}
+.events{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.events p {
+    font-size: 120%;
+    width: 400px;
+}
+.events h2{
+    display: inline;
+    border-style: solid;
+    border-width: normal;
+    padding: 10px;
+    background-color: #efeae6;
+}
+#events-section{
+    background-color: #ffd1c9;
+}
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+h1.center-text
+{
+    font-family: 'Berkshire Swash', serif;
+    font-size: 550%;
+}
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;}
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;}
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;}
+.img-1{
+    margin: auto;
+    width: 100%;
+}
+.img-2{
+    margin: auto;
+    padding-left: 10px;
+    width: 30%;
+}
+.footer{
+    text-align:center;
+}
+legend {
+    font-style: italic;
+    color: #666666;
+}
+li {
+    list-style-image: url("images/icon-plus.png");
+    line-height: 1.6em;
+}
+.location-of-events{
+    float: right;
+    padding-right: 50px;
+    padding-top: 160px
+}  
+.map{
+    float: right;
+    padding-right: 100px;
+}    
+#page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    
+    border: 4px  #000;
+    background-color: #f6f4e8;
+    vertical-align: baseline;
+}
+.submit {
+    width: 310px;
+    text-align: right;}
+table {
+    border-spacing: 0px;}
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;}
+th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;}
+tr.head th {
+    color: #fff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;}
+td {
+    text-shadow: 1px 1px 1px #ffffff;}
+tr.even td, tr.even th {
+    background-color: #e8eff5;}
+tr.head th:first-child {
+    /* WebKit is a browser engine used in Apple's Safari browser, Amazon 
+      Kindle e-book reader, BlackBerry Browser in OS 6 and above.
+
+      Not all CSS3 properties work well in all browsers. In a way to ensure that web pages display as expected in their browsers, vendors like Mozilla and Webkit developed their own browser-compatible properties. With CSS3, many compatibility issues are now resolved.
+      However, it is not unusual to still see these properties used in stylesheets. */
+
+    /* Webkit property*/
+    -webkit-border-top-left-radius: 5px;
+
+    /* Mozilla property*/
+    -moz-border-radius-topleft: 5px;
+
+    /* CSS3 property*/
+    border-top-left-radius: 5px;
+
+    /* More on border-radius property: https://www.the-art-of-web.com/css/border-radius/ */
+}
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;}
+}
+
+
+.menu-holder {
+    float: right;
+    max-width: 80%;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    background-color: #ffffff;
+    right: -100%;
+    top: 0;
+    transition: right .3s ease;
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+    z-index: 99;
+    padding-top: 100px;
+    }
+ 
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+    }
+
+ul li {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+   ul li a, 
+   ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+border: none;
+text-decoration: none;
+color: inherit;
+}
+
+.website-title{
+    padding-top: 40px;
+    padding-left: 20px;
+}
